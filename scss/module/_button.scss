@@ -1,5 +1,9 @@
 
 
-.my_text {
+.my-text {
+    @include my_button;
+}
+
+.add-button {
     @include my_button;
 }

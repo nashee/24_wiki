@@ -1,0 +1,19 @@
+
+.section {
+    padding: 1rem;
+    width: 100%;
+    padding-top: 1rem;
+    border: 1px solid black;
+    line-height: 1.5;
+    h2,p {
+        margin-bottom: 1rem;
+    }
+    p {
+        height: 100px;
+        overflow-y: scroll;
+        border-bottom: 3px solid gray;
+    }
+    img {
+        width: 100%;
+    }
+}
