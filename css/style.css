@@ -1,39 +1,20 @@
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
+/* Error: It's not clear which file to import. Found:
+ *   scss/layout/_add.scss
+ *   scss/layout/add.scss
+ *   ,
+ * 3 | @import 'add';
+ *   |         ^^^^^
+ *   '
+ *   scss/layout/_index.scss 3:9  @import
+ *   scss/style.scss 3:10         root stylesheet */
 
-body {
-  background-color: #d9d9d9;
-  font-size: 1.6rem;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: It's not clear which file to import. Found:\a   scss/layout/_add.scss\a   scss/layout/add.scss\a   \2577 \a 3 \2502  @import 'add';\a   \2502          ^^^^^\a   \2575 \a   scss/layout/_index.scss 3:9  @import\a   scss/style.scss 3:10         root stylesheet";
 }
-
-.header {
-  max-width: 900px;
-  border: 1px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
-.search {
-  display: flex;
-}
-
-.add {
-  max-width: 900px;
-  border: 1px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
-.my_text {
-  padding: 8px 16px;
-  background-color: darkgreen;
-  color: white;
-}
-
-/*# sourceMappingURL=style.css.map */
