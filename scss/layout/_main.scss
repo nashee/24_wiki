@@ -1,7 +1,8 @@
 
 .main {
     max-width: 900px;
-    border: 1px solid black;
+    margin: 0 auto;
+   
     display: flex;
     
     justify-content: space-between;
@@ -11,6 +12,8 @@
 
 .aside {
     flex: 0 0 30%;
+    padding: 1rem;
+    border-right: 1px solid black;
    
 
 }

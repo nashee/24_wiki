@@ -1,77 +1,85 @@
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
-}
+  font-size: 62.5%; }
 
 * {
   box-sizing: inherit;
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 body {
   background-color: #d9d9d9;
-  font-size: 1.6rem;
-}
+  font-size: 1.6rem; }
 
 .header {
   max-width: 900px;
+  margin: 0 auto;
   border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
-}
+  padding: 1rem; }
 
 .search {
-  display: flex;
-}
+  display: flex; }
 
 .main {
   max-width: 900px;
-  border: 1px solid black;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
-}
+  padding: 1rem; }
 
 .aside {
   flex: 0 0 30%;
-}
+  padding: 1rem;
+  border-right: 1px solid black; }
 
 .content {
-  flex: 0 0 70%;
-}
+  flex: 0 0 70%; }
 
 .my-text {
   padding: 8px 16px;
   background-color: darkgreen;
   color: white;
-}
+  display: inline-block; }
 
 .add-button {
   padding: 8px 16px;
   background-color: darkgreen;
   color: white;
-}
+  display: inline-block; }
 
 .section {
+  display: flex;
   padding: 1rem;
   width: 100%;
   padding-top: 1rem;
-  border: 1px solid black;
+  border: 1px solid white;
   line-height: 1.5;
-}
-.section h2, .section p {
-  margin-bottom: 1rem;
-}
-.section p {
-  height: 100px;
-  overflow-y: scroll;
-  border-bottom: 3px solid gray;
-}
-.section img {
+  margin-bottom: 1rem; }
+  .section h2, .section p {
+    margin-bottom: 2rem; }
+  .section p {
+    height: 100px;
+    overflow-y: scroll; }
+  .section img {
+    width: 100%; }
+  .section .right {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem; }
+
+.block ul {
+  list-style: none; }
+.block a {
+  padding: 8px 16px;
+  background-color: darkgreen;
+  color: white;
+  display: inline-block;
+  margin-bottom: 2rem;
   width: 100%;
-}
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
